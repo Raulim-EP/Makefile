@@ -25,7 +25,7 @@ Esse comando exibe todos os targets disponíveis e o que cada um faz.
 | Alvo | Descrição |
 |------|-----------|
 | `ver_apps_instalados` | Mostra os últimos pacotes instalados no sistema via `dpkg`. |
-| `ver_arquivos_recentes` | Lista arquivos abertos recentemente no ambiente gráfico (GNOME/KDE). |
+| `ver_arquivos_recentes` | Lista arquivos abertos recentemente no ambiente gráfico. |
 | `ver_processos_recentes` | Exibe os processos mais recentes com PID, tempo de execução e comando. |
 | `ver_logs_sistema` | Mostra os últimos 30 registros de log do sistema (`journalctl`). |
 | `ver_logs_erros` | Mostra os últimos 20 erros críticos no sistema. |
