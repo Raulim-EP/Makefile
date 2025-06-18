@@ -1,6 +1,6 @@
-# Painel de Histórico e Execução de Programa C - Makefile para Linux (WSL)
+# Painel de Histórico e Execução de Código em linguagem C
 
-Este projeto é um Makefile criado para ajudar no monitoramento do sistema Linux (via WSL ou nativamente), exibindo informações úteis sobre o histórico do sistema, processos e comandos, além de permitir compilar e executar um programa em C chamado `primo.c`.
+Este é um projeto criado para a cadeira de Engenharia de Computação, com o objetivo de desenvolver o conhecimento em Linux, principalmente sobre makefile, com a contribuiçaõ de um pequeno código em linguagem C com o arquivo denominado de `primo.c`.
 
 ---
 
@@ -9,7 +9,7 @@ Este projeto é um Makefile criado para ajudar no monitoramento do sistema Linux
 No terminal, navegue até o diretório onde está o `Makefile` e use um dos comandos abaixo:
 
 ```
-make <alvo>
+make <target>
 ```
 
 ### Alvo padrão:
@@ -56,11 +56,12 @@ make ver_comandos_recentes
 ```
 projeto/
 ├── Makefile
-└── primo.c
+├── primo.c
+└──README.md
 ```
 
 ---
 
 ## Sobre o `primo.c`
 
-O programa `primo.c` é responsável por calcular e exibir todos os números primos até o número digitado pelo usuário.# Makefile
+O código `primo.c` é feito para calcular os números primos do 1 até o número digitado pelo úsuario, focado para economizar processamento e entregar o resultado mais rápido.
