@@ -1,5 +1,5 @@
 all:
-	@echo "Painel de Histórico - Use um dos alvos abaixo:"
+	@echo "Painel de Histórico - Use um dos targets abaixo:"
 	@echo "  make ver_apps_instalados       - Últimos pacotes instalados (dpkg)"
 	@echo "  make ver_arquivos_recentes     - Arquivos recentes abertos no ambiente gráfico"
 	@echo "  make ver_processos_recentes    - Últimos processos abertos"
