@@ -19,6 +19,6 @@ int main() {
         printf("%d, ", i);
         }
     }
-    printf("\n\n%d numeros primos", cP);
+    printf("\n\n%d numeros primos\n\n", cP);
     return 0;
 }
